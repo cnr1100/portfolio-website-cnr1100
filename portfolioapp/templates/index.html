@@ -1,0 +1,281 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chowdary NarayanaRao Portfolio Website</title>
+
+    <!-- UNICONS ICONS IMPORT -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- CSS FILE -->
+      <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+    <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">CHOWDARY</p>
+                <p class="nav-name">NARAYANA RAO</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav-menu-list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>  
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="https://www.linkedin.com/in/cnr1100" target="_blank" rel="noopener noreferrer"><button class="btn">Download Resume <i class="uil uil-file-alt"></i></button></a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+
+    <!-- --------------- MAIN --------------- -->
+    <main class="wrapper">
+        <!-- --------------- FEATURED BOX --------------- -->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Chowdary Narayana Rao</span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm <span class="typed-text"></span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Creative and efficient Front-End Developer with a passion for creating visually stunning and User-Friendly Websites.</p>
+                    <p>I'm proficient in version control with Git, enabling streamlined collaboration, code management, and continuous integration workflows across distributed teams.</p>
+                </div>
+                <div class="featured-text-btn">
+                    <a href="https://www.linkedin.com/in/cnr1100" target="_blank" rel="noopener noreferrer"><button class="btn blue-btn">Hire Me</button></a>
+                    <a href="https://www.linkedin.com/in/cnr1100" target="_blank" rel="noopener noreferrer"><button class="btn">Download Resume<i class="uil uil-file-alt"></i></button></a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/cnr1100" target="_blank" rel="noopener noreferrer"><div class="icon"><i class="uil uil-linkedin"></i></div></a>
+                    <a href="https://github.com/cnr1100" target="_blank" rel="noopener noreferrer"><div class="icon"><i class="uil uil-github"></i></div></a>
+                    <a href="https://x.com/NaniChowdary911?t=MSEyaQKWpEp8BbLX5a7NfA&s=09" target="_blank" rel="noopener noreferrer"><div class="icon"><i class="uil uil-twitter"></i></div></a>
+                    <a href="https://www.instagram.com/nani__911?igsh=MTVsZmV3ZXB0ZjFtdg==" target="_blank" rel="noopener noreferrer"><div class="icon"><i class="uil uil-instagram-alt"></i></div></a>
+                </div> 
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="{% static 'images/nani.jpeg' %}" alt="">
+                </div>
+            </div>
+            <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                <i class="uil uil-angle-double-down"></i>
+                <p>Scroll down</p>
+                </a>
+            </div>
+        </section>
+        
+        <!-- --------------- ABOUT BOX --------------- -->
+         <section class="section" id="about">
+            <div class="top-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My Introduction</h3>
+                        <p>I'm well versed in HTML, CSS and JavaScript and other cutting edge 
+                           frameworks and libraries,which allows me to implement interactive features.</p>
+                        <p>Additionally, I possess strong technical skills across both front-end development and data analysis domains.</p>
+                        <p>I'm experienced with Python programming for web development using frameworks like Django, 
+                           and have hands-on expertise with MySQL for efficient data handling.</p> 
+                        <p>On the front-end, I build dynamic interfaces with React and integrate seamlessly with REST APIs.</p> 
+                        <p>As a data analyst, I utilize Power BI and Excel for dashboarding and reporting, and leverage Python libraries like NumPy, Pandas, Matplotlib, and Seaborn for data cleaning, transformation, visualization, and insight generation.</p> 
+                        <p>This blend of development and analytical skills allows me to deliver well-rounded, data-driven web applications.</p>
+                        <div class="about-btn">
+                        <a href="https://www.linkedin.com/in/cnr1100" target="_blank" rel="noopener noreferrer"><button class="btn">Download Resume<i class="uil uil-import"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --------------- SKILLS BOX --------------- -->
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>FRONT-END</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+                            <span>REACT</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>BACK-END</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>C</span>
+                            <span>C++</span>
+                            <span>PYTHON</span>
+                            <span>DJANGO</span>
+                        </div>
+                    </div>
+                     <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>DATABASE</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>MYSQL</span>
+                            <span>MONGODB</span>
+                        </div>
+                    </div>
+                     <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>LIBRARIES</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>NUMPY</span>
+                            <span>PANDAS</span>
+                            <span>MATPLOTLIB</span>
+                            <span>SEABORN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+          <!-- --------------- PROJECTS BOX --------------- -->
+           <section class="section" id="projects">
+            <div class="top-header">
+                <h1>LATEST PROJECTS</h1>
+            </div>
+            <div class="projects-container">
+                <div class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <a href="https://github.com/cnr1100" target="_blank" rel="noopener noreferrer"><h3>Projects Completed</h3></a>
+                    <label>8+ Finished Projects</label>
+                </div>
+                 <div class="project-box">
+                    <i class="uil uil-users-alt"></i>
+                    <h3>What I'm Excited to Build</h3>
+                    <label>I'm excited to collaborate with clients who value fresh ideas, dedication, and creative energy.</label>
+                </div>
+                 <div class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>My Creative Journey</h3>
+                    <label>Though new to the industry, I have completed 8+ hands-on personal and course-based projects that reflect real-world challenges and honed my practical skills.</label>
+                </div>
+            </div>
+           </section>
+
+           <!-- --------------- CONTACT BOX --------------- -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                        <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i> Email: cnr1100@gmail.com</p>
+                        <p><i class="uil uil-phone"></i> Tel: +919848386202</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-control">
+                        <form method="POST" action="">
+                            {% csrf_token %} <!-- Security token -->
+                            {% if success %}
+                            <script>
+                            window.onload = function () {
+                                document.getElementById("loader").style.display = "none";
+                                document.querySelector(".btn").disabled = false;
+                                document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+                            };
+                            </script>
+                            {% endif %}
+                        <div class="form-inputs">
+                            <input type="text" name="name" class="input-field" placeholder="Name" required>
+                            <input type="email" name="email" class="input-field" placeholder="Email" required>
+                        </div>
+                        <div class="text-area">
+                            <textarea name="content" class="input-field" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                        </form>
+                        <div id="loader" class="loader" style="display: none;"></div>
+                        <!-- ✅ Show success message -->
+                        {% if success %}
+                            <div class="success-box">
+                                <i class="uil uil-check-circle"></i> Submitted succesfully!
+                            </div>
+                        {% endif %} 
+                    </div>
+                </div>
+            </div>       
+        </section>
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Chowdary Narayana Rao</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer-menu-list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer-menu-list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer-menu-list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer-menu-list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+                    <a href="https://www.linkedin.com/in/cnr1100" target="_blank" rel="noopener noreferrer"><div class="icon"><i class="uil uil-linkedin"></i></div></a>
+                    <a href="https://github.com/cnr1100" target="_blank" rel="noopener noreferrer"><div class="icon"><i class="uil uil-github"></i></div></a>
+                    <a href="https://x.com/NaniChowdary911?t=MSEyaQKWpEp8BbLX5a7NfA&s=09" target="_blank" rel="noopener noreferrer"><div class="icon"><i class="uil uil-twitter"></i></div></a>
+                    <a href="https://www.instagram.com/nani__911?igsh=MTVsZmV3ZXB0ZjFtdg==" target="_blank" rel="noopener noreferrer"><div class="icon"><i class="uil uil-instagram-alt"></i></div></a>     
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Chowdary Narayana Rao</a> - All Rights Reserved</p>
+        </div>
+    </footer>
+</div>
+
+    <!-- TYPED JS LINK -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- SCROLL REVEAL JS LINK -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+     
+    <!-- MAIN JS FILE -->
+     <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

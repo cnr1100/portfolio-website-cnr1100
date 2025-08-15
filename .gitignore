@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.pyc
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+*.venv
+*.virtualenv
+
+# Django
+media/
+staticfiles/
+static/
+*.log
+local_settings.py
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# MySQL
+*.sql
+*.sql.gz
+*.mysql
+*.db
+*.pid
+
+# Migrations
+**/migrations/
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# System files
+Thumbs.db
+ehthumbs.db
